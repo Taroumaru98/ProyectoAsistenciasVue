@@ -1,9 +1,9 @@
-import home from '../components/home.vue'
-import fichas from '../components/fichas.vue'
-import aprendiz from '../components/aprendiz.vue'
-import usuario from '../components/usuario.vue'
-import bitacoras from '../components/bitacoras.vue'
-import loguin from '../components/loguin.vue'
+import home from '../components/Home.vue'
+import fichas from '../components/Fichas.vue'
+import aprendiz from '../components/Aprendiz.vue'
+import usuario from '../components/Usuario.vue'
+import bitacoras from '../components/Bitacoras.vue'
+import login from '../components/Login.vue'
 
 
 import { createRouter, createWebHashHistory } from 'vue-router'
@@ -16,7 +16,7 @@ const routes = [
     { path: '/aprendiz', component: aprendiz },
     { path: '/usuario', component: usuario },
     { path: '/bitacoras', component: bitacoras },
-    {path: '/',  component: loguin}
+    {path: '/',  component: login}
 ]
 
 

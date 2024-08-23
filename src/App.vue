@@ -37,7 +37,7 @@
       <q-item-section>Home</q-item-section>
     </q-item>
 
-    <q-item clickable to="/usuario" v-ripple style="background-color: green; border-radius: 2rem; color:white; margin-bottom: 10px;">
+    <q-item clickable to="/bitacoras" v-ripple style="background-color: green; border-radius: 2rem; color:white; margin-bottom: 10px;">
       <q-item-section avatar>
         <q-icon name="person" />
       </q-item-section>
